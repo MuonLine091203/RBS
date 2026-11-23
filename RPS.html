@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"rel="stylesheet">
+  <link rel="stylesheet" href="RPS.css">
+  <script src="RPS.js" defer></script>
+  <title>Rock Paper Scissors</title>
+</head>
+<body>
+  <header class="head">
+    Rock Paper Scissors
+  </header>
+  <main class="chossen-zone">
+    <button class="click-choosen" onclick="PLay('Rock')">
+      <img class="choosen" src="img/rock-emoji.png" alt="">
+    </button>
+    <button class="click-choosen" onclick="PLay('Paper')">
+      <img class="choosen" src="img/paper-emoji.png" alt="">
+    </button>
+    <button class="click-choosen" onclick="PLay('Scissors')">
+      <img class="choosen" src="img/scissors-emoji.png" alt="">
+    </button>
+  </main>
+  <p class="result"></p>
+  <p class="You-vs-Bot"></p>
+  <p class="score">
+    Wins: 0, Loses: 0, Ties: 0
+  </p>
+  <button class="reset-score" onclick="ResetScore()">
+    Reset Score
+  </button>
+  <button class="auto-play" onclick="AutoPlay()">Auto Play</button>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <p class="header-of-bet">
+    Choose your bet
+  </p>
+  <p class="rule">
+    <span style="font-weight: bold;
+  font-size: 50px;">Rule</span>
+    <br>
+    WIN the game, you claim your bet + <b>10%</b> of that
+    <br>
+    if the bet is gearter than 100$ you'll win <b>20%</b>
+  </p>
+  <input class="choosen-bet" type="text" placeholder="Enter"
+  onkeydown="EnterToBetGame(event)">
+  <button class="calculate" onclick="BetGameCalculate()">Calculate</button>
+  <p class="winnings"></p>
+</body>
+</html>

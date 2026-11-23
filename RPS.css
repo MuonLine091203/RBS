@@ -1,0 +1,101 @@
+body{
+  background-color: rgb(25, 25, 25);
+  margin:0 8px;
+}
+p{
+  margin:0;
+  font-family:roboto,arial;
+}
+.head{
+  color:white;
+  font-weight:bold;
+  font-size:30px;
+  font-family:arial;
+  padding:30px 0;
+}
+.chossen-zone{
+  display:flex;
+  column-gap: 14px;
+}
+.click-choosen{
+  background-color: rgb(25, 25, 25);
+  padding: 31px 32px 30px 32px;
+  border: 3px solid white;
+  border-radius: 50%;
+}
+.choosen{
+  width:50px;
+}
+.result{
+  font-size:25px;
+  font-weight:bold;
+  margin:50px 0px;
+  color:white;
+}
+.You-vs-Bot {
+  color: white;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.score{
+  color:white;
+  font-size:18px;
+  margin-top:20px;
+}
+.reset-score{
+  font-size:16px;
+  padding:8px 15px;
+  background-color:white;
+  border:none;
+  border-radius:2px;
+  margin-top:10px;
+  margin-left:-3px;
+}
+.auto-play{
+  font-size: 16px;
+  padding: 8px 15px;
+  background-color: white;
+  border: none;
+  border-radius: 2px;
+  margin-left:5px;
+}
+
+.rock, .scissors, .paper{
+  width:50px;
+}
+
+
+.click-choosen , .reset-score,.auto-play{
+  cursor:pointer;
+}
+
+
+
+
+.header-of-bet{
+  margin-top:20px;
+  font-size:50px;
+  font-weight:bold;
+  color:white;
+}
+.rule{
+  margin-top: 10px;
+  font-size: 25px;
+  color: white;
+}
+.choosen-bet{
+  margin-top: 20px;
+  padding:5px 200px 5px 10px;
+  font-size: 20px;
+}
+.calculate{
+  font-size:20px;
+  padding:6px 10px;
+  border:none;
+  background-color:white;
+}
+.winnings{
+  margin-top: 20px;
+  font-size: 30px;
+  color: white;
+}
